@@ -14,19 +14,7 @@ This project creates an AI tutor-like talking avatar video from a text topic usi
 5. **Avatar Animation** using SadTalker
 6. **Face Enhancement** using GFPGAN
 
----
 
-##  Pipeline Architecture
-
-```mermaid
-graph TD
-A[User Input: Topic] --> B[Stable Diffusion (Avatar Image)]
-B --> C[TinyLLaMA (Script)]
-C --> D[gTTS (Audio)]
-D --> E[SadTalker (Animation)]
-E --> F[GFPGAN (Face Enhancement)]
-F --> G[Final MP4 Video]
-```
 
 ---
 
