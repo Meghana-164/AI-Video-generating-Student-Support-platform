@@ -1,4 +1,4 @@
-#  AI Talking Avatar Generator 🎥  
+#  AI Video generating Platform 
 Generate a hyper-realistic talking avatar from a text topic using a pipeline of cutting-edge models including Stable Diffusion, TinyLLaMA, gTTS, and SadTalker – all deployed on **Kaggle** with GPU.
 
 ---
@@ -51,10 +51,10 @@ F --> G[Final MP4 Video]
 
 ---
 
-### ✅ STEP 1: Get Topic from User
+###  STEP 1: Get Topic from User
 
 ```python
-topic = input("📥 Enter the topic you want the avatar to explain: ").strip()
+topic = input(" Enter the topic you want the avatar to explain: ").strip()
 ```
 
 ---
@@ -87,7 +87,7 @@ tts.save("audio.mp3")
 
 ---
 
-### ✅ STEP 5: Set Up SadTalker
+###  STEP 5: Set Up SadTalker
 
 ```bash
 !git clone https://github.com/OpenTalker/SadTalker.git
@@ -137,11 +137,9 @@ sys.setrecursionlimit(20000)
   SadTalker/results/<timestamp>/avatar##audio_enhanced.mp4
   ```
 
----
 
-##  Sample Output
 
-![Sample Avatar](https://via.placeholder.com/500x280.png?text=Generated+Avatar+Preview)
+
 
 ---
 
